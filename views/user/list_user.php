@@ -1,5 +1,5 @@
 <?php
-require_once'../conexao/conexao.php';
+require_once'../../conexao/conexao.php';
 $conexao=Connection::getConn();
  ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@ $conexao=Connection::getConn();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
 </head>
 
 <body>

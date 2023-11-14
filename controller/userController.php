@@ -1,11 +1,12 @@
 <?php
 require_once'../conexao/conexao.php';
-require_once'../models/usuario.php';
+require_once'../models/user.php';
 
 
 $p=$_GET['p'];
 
-if($p=="salvar"){
+if($p=="save"){
+    
     $nome=filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
     $email=filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING); 
     $senha=filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);
@@ -13,7 +14,7 @@ if($p=="salvar"){
     $morada=filter_input(INPUT_POST, 'morada', FILTER_SANITIZE_STRING);
 
 
-    $retorno=USUARIO::salvar($nome,$email,$senha,$contacto,$morada);
+    $retorno=USUARIO::save($nome,$email,$senha,$contacto,$morada);
     if($retorno==1){
         echo "Sucesso";
     } else {

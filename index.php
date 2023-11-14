@@ -6,22 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script language="javascript">
+    window.location.href = "./views/user/access/login.php"
+    </script>
 </head>
 
 <body>
-    <header class="header-title">Home</header>
-
-    <main>
-
-        <a href="./views/cadastrar_usuario.php"><button class="button blue teste" id="cadastrarEstudante">Cadastrar
-                Usuário</button>
-        </a>
-        <h1> Produtos</h1>
-
-    </main>
-    <footer>
-        Copyright &copy; Helmer Capassola
-    </footer>
+    Go to <a href="./views/user/access/login.php"></a>
 </body>
 <script src="./script/main.js"></script>
 </body>

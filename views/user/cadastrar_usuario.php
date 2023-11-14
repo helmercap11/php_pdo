@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
 </head>
 
 <body>
     <header class="header-title">Cadastrar Usuário</header>
 
     <main>
-        <form action="../controller/usuarioController.php?p=salvar" method="post">
+        <form action="../../controller/userController.php?p=save" method="post">
             <input type="text" name="nome" placeholder="Nome"> <br><br>
             <input type="email" name="email" placeholder="exemplo@gmail.com"> <br><br>
             <input type="text" name="senha" placeholder="palavra passe"> <br><br>
